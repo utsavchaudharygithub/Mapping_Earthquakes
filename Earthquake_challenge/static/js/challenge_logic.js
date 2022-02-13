@@ -211,7 +211,7 @@ legend.onAdd = function() {
     weight: 3.25,
   };
 
-  // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
+  // Use d3.json to make a call to get our Tectonic Plate geoJSON data.
   let tectData = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
   
   d3.json(tectData).then(function(data) {
